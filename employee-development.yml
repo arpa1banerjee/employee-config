@@ -1,1 +1,3 @@
 message: hello from config server - development environement
+server:
+  port: 8081

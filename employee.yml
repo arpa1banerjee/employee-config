@@ -1,1 +1,3 @@
 message: hello from config server
+server:
+  port: 8081

@@ -18,6 +18,8 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5InnoDBDialect
 eureka: 
+  registration: 
+    enabled: true
   client: 
     region: default
     registryFetchIntervalSeconds: 50

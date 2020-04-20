@@ -1,0 +1,15 @@
+server: 
+  port: 8080
+spring: 
+  application: 
+    name: gateway
+eureka: 
+  registration: 
+    enabled: true
+  client: 
+    region: default
+    registryFetchIntervalSeconds: 50
+zuul: 
+  routes: 
+  - salary-service: 
+      path: /salary-service/**    

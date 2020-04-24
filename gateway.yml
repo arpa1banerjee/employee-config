@@ -13,3 +13,7 @@ zuul:
   routes: 
   - salary-service: 
       path: /salary-service/**    
+  - department-service:
+      path: /de[artment-service/**
+  - employee-service: 
+      path: /employee-service/**

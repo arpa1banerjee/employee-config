@@ -7,7 +7,8 @@ eureka:
   registration: 
     enabled: true
   client: 
-    region: default
+    serviceUrl:
+      defaultZone: https://eureka1-server.cfapps.io/
     registryFetchIntervalSeconds: 50
 zuul: 
   routes: 
